@@ -3,7 +3,7 @@
 A small app that will list the most starred Github repos that were created in the last 30 days. You'll be fetching the sorted JSON data directly from the Github API (Github API explained down below).
 
 ## Mockups
-![alt text](https://raw.githubusercontent.com/simolabsoft/TrendignRepos/master/image.png)
+![alt text](https://github.com/simolabsoft/TrendingRepos/blob/master/image.png)
 
 
 ## Installation
