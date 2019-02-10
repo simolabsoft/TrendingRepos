@@ -2,10 +2,14 @@
 
 A small app that will list the most starred Github repos that were created in the last 30 days. You'll be fetching the sorted JSON data directly from the Github API (Github API explained down below).
 
+## Mockups
+![alt text](https://raw.githubusercontent.com/simolabsoft/TrendignRepos/master/image.png)
+
+
 ## Installation
 Clone this repository and import into **Android Studio**
 ```bash
-git clone git@github.com:hiddenfounders/mobile-coding-challenge.git
+git clone git@github.com:simolabsoft/TrendingRepos.git
 ```
 
 ## Build variants
@@ -23,6 +27,16 @@ This project is mantained by:
 * [United Remot](https://github.com/hiddenfounders)
 * [Mohammed Labied](https://github.com/simolabsoft)
 
+#### Android Gradle
+```gradle
+// Add Dagger dependencies
+dependencies {
+    implementation 'androidx.cardview:cardview:1.0.0-beta01'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0-beta01'
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+}
+```
 
 ## Contributing
 
@@ -32,3 +46,4 @@ This project is mantained by:
 4. Run the linter (ruby lint.rb').
 5. Push your branch (git push origin my-new-feature)
 6. Create a new Pull Request
+
